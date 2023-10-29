@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memelistmanager/static/css/main.f8ddad3b.css",
+    "main.js": "/memelistmanager/static/js/main.0b14df70.js",
+    "static/js/787.f35e0079.chunk.js": "/memelistmanager/static/js/787.f35e0079.chunk.js",
+    "index.html": "/memelistmanager/index.html",
+    "main.f8ddad3b.css.map": "/memelistmanager/static/css/main.f8ddad3b.css.map",
+    "main.0b14df70.js.map": "/memelistmanager/static/js/main.0b14df70.js.map",
+    "787.f35e0079.chunk.js.map": "/memelistmanager/static/js/787.f35e0079.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8ddad3b.css",
+    "static/js/main.0b14df70.js"
+  ]
+}
