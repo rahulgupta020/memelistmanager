@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FormGroup, Form, Label, Input, Button } from "reactstrap";
 import { useNavigate } from 'react-router-dom';
 
-
 const Login = () => {
     const navigate = useNavigate();
 
@@ -24,20 +23,21 @@ const Login = () => {
             window.location.reload(false); 
         } 
     }
+
     const handleEmail = (e) => {
         setUser(e.target.value)
     }
+
     const handlePassword = (e) => {
         setPass(e.target.value)
     }
 
     return (
-        <>
+        <div className="login-container">
+            <h1 className="login-title">Login</h1>
             <Form onSubmit={handleSubmit}>
                 <FormGroup>
-                    <Label for="exampleUser">
-                        User
-                    </Label>
+                    <Label for="exampleUser">User</Label>
                     <Input
                         id="exampleUser"
                         name="user"
@@ -47,9 +47,7 @@ const Login = () => {
                     />
                 </FormGroup>
                 <FormGroup>
-                    <Label for="examplePassword">
-                        Password
-                    </Label>
+                    <Label for="examplePassword">Password</Label>
                     <Input
                         id="examplePassword"
                         name="password"
@@ -58,11 +56,10 @@ const Login = () => {
                         onChange={handlePassword}
                     />
                 </FormGroup>
-                <Button color="primary">
-                    Submit
-                </Button>
+                <Button color="primary" className="login-button">Submit</Button>
             </Form>
-        </>
-    )
+        </div>
+    );
 }
+
 export default Login;
