@@ -1,72 +1,33 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # memelistmanager
-# memelistmanager
+Project Description:-
+The Task Management App is a web-based application for organizing tasks and to-do lists. Users can create, edit, and prioritize tasks, set deadlines, and mark them as completed. It includes user authentication and provides a simple and efficient way to manage daily tasks.
+
+Project Requirement:-
+1) Use react-router to create two routes named login and dashboard . Make the dashboard a protected route which means if the user directly goes to /dashboard without logging in it should be redirected to “/” which is the login page.
+As you don’t have a backend..
+Hint:-
+    Make some static username password which is acceptable.
+    use local storage :- https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/
+2) Ensure that there are two username,password combinations user login from for lets say User A and User B.
+3) On the dashboard page there is a “logout” button on top right which logs out the given user and takes us back to the login page. Also there are two buttons: “Make a list” and “Show My List”.
+4) Make a list shows a table which first 15 entries from the array which you used in 1 and 1a.In each row there is a  checkbox in the first column and a save button at top by which user can make his list and also a CANCEL button beside save which make us return to the previous UI of “Make a list” and “Show my List” button.
+5) Show my list if there is no saved list. Gives an alert saying “No saved list” and lets say if user A has previously saved a list,It will show him his list in table as you did in question 1. (ensure it is not user B’s list).
+
+If you want to run this project. Simple clone it. and run Command "npm install". after it it will install node_modules folder. now can you can run this project using "npm start".
+
+screen:
+Home Page :-
+
+Login Page :-
+
+Home Page with Welcome User :-
+
+DashBoard Page :-
+
+Make a List Page :-
+
+Select and Store List :-
+
+Show a List Page :-
+
+Click on Show Button :-
